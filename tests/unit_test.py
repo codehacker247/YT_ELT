@@ -2,7 +2,7 @@ def test_api_key(api_key):
   assert api_key == "MOCK_KEY1234"
 
 def test_channel_handle(channel_handle):
-  assert channel_handle == "MRCHEESE"
+  assert channel_handle == "MrBeast"
 
 def test_postgres_conn(mock_postgres_conn_vars):
   conn = mock_postgres_conn_vars
